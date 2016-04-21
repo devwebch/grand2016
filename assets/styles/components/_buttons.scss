@@ -1,0 +1,16 @@
+.btn {
+	border-radius: 0;
+}
+.submit {
+	border-radius: 0;
+}
+
+.btn-primary, input[type="submit"] {
+	background: $red;
+	border-color: $red;
+	
+	&:hover {
+		background: darken($red, 10%);
+		border-color: darken($red, 10%);
+	}
+}

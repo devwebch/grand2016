@@ -1,0 +1,52 @@
+.post {
+	.entry-title {
+		font-size: 1.4em;
+	}	
+}
+
+.blog .post {
+	background: #fff;
+	float: left;
+	width: 360px;
+	margin-right: 15px;
+	
+	.entry__thumbnail {
+		img { max-width: 100%; height: auto; }
+	}
+	
+	.entry__header {
+		position: relative;
+		padding: 30px 20px 0;
+	}
+	.entry-title {
+		margin: 0;
+		padding: 0;
+	}
+	.entry-summary {
+		padding: 20px;
+		color: #333;
+	}
+	.updated {
+		position: absolute;
+		color: #fff;
+		background: #999;
+		padding: 5px;
+		display: inline-block;
+		top: -20px;
+		left: 0;
+	}
+}
+
+
+.comments {
+	padding-top: 20px;
+	
+	h2 {
+		font-size: 1.4em;
+	}
+	
+	
+}
+.comment-form {
+	
+}

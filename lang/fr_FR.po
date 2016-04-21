@@ -1,0 +1,125 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Sage Starter Theme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Sat Apr 16 2016 11:32:09 GMT+0200 (CEST)\n"
+"PO-Revision-Date: Sat Apr 16 2016 11:40:09 GMT+0200 (CEST)\n"
+"Last-Translator: atlas <simon.rapin@gmail.com>\n"
+"Language-Team: \n"
+"Language: French (France)\n"
+"Plural-Forms: nplurals=2; plural=n > 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: fr_FR\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: 404.php:4
+msgid "Sorry, but the page you were trying to view does not exist."
+msgstr "Malheureusement la page que vous essayez d'atteindre n'existe pas."
+
+#: base.php:14
+msgid ""
+"You are using an <strong>outdated</strong> browser. Please <a href=\"http:"
+"//browsehappy.com/\">upgrade your browser</a> to improve your experience."
+msgstr ""
+
+#: functions.php:22
+#, c-format
+msgid "Error locating %s for inclusion"
+msgstr ""
+
+#: index.php:5 search.php:5
+msgid "Sorry, no results were found."
+msgstr "Navré, aucun résultat trouvé."
+
+#: lib/extras.php:31
+msgid "Continued"
+msgstr ""
+
+#: lib/setup.php:30
+msgid "Primary Navigation"
+msgstr ""
+
+#: lib/setup.php:57
+msgid "Primary"
+msgstr ""
+
+#: lib/setup.php:66
+msgid "Footer"
+msgstr ""
+
+#: lib/titles.php:13
+msgid "Latest Posts"
+msgstr ""
+
+#: lib/titles.php:18
+#, c-format
+msgid "Search Results for %s"
+msgstr "Résultats de recherche pour %s"
+
+#: lib/titles.php:20
+msgid "Not Found"
+msgstr "Introuvable"
+
+#: templates/comments.php:9
+#, c-format
+msgctxt "comments title"
+msgid "One response to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s responses to &ldquo;%2$s&rdquo;"
+msgstr[0] "Une réponse à &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s réponses à &ldquo;%2$s&rdquo;"
+
+#: templates/comments.php:19
+msgid "&larr; Older comments"
+msgstr ""
+
+#: templates/comments.php:22
+msgid "Newer comments &rarr;"
+msgstr "Commentaires plus récents &rarr;"
+
+#: templates/comments.php:31
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+#: templates/content-page.php:2 templates/content-single.php:11
+msgid "Pages:"
+msgstr "Pages :"
+
+#: templates/entry-meta.php:2
+msgid "By"
+msgstr "Par"
+
+#. Theme Name of the plugin/theme
+msgid "Sage Starter Theme"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://roots.io/sage/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Sage is a WordPress starter theme. <a href=\"https://github."
+"com/roots/sage\">Contribute on GitHub</a>"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Roots"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://roots.io/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Custom Template"
+msgstr ""

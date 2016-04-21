@@ -1,0 +1,12 @@
+.single-project {
+	
+	.project__images {
+		list-style: none outside;
+		margin: 0;
+		padding: 0;
+		
+		li {
+			float: left;
+		}
+	}
+}

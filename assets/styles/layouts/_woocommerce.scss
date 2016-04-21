@@ -1,0 +1,11 @@
+.woocommerce,
+.woocommerce-page {
+	.images {
+		display: none;
+	}
+	
+	.product .summary {
+		float: left !important;
+		width: auto !important;
+	}
+}

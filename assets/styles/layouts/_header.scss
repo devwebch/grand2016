@@ -1,0 +1,50 @@
+.banner {
+	background: #111;
+	padding: 20px 0;
+}
+
+.nav-primary {
+	float: right;
+	
+	.nav {
+		list-style: none outside;
+		margin: 0;
+		padding: 0;
+		
+		li {
+			float: left;
+			position: relative;
+			
+			a {
+				text-transform: uppercase;
+				color: #fff;
+			}
+			
+			&:hover {
+				.sub-menu { display: block; }
+			}
+		}
+		
+		.sub-menu {
+			display: none;
+			list-style: none outside;
+			margin: 0;
+			padding: 0;
+			position: absolute;
+			background: #fff;
+			width: 200px;
+			z-index: 10;
+			
+			li {
+				display: block;
+				float: none;
+			}
+			
+			a {
+				display: block;
+				padding: 10px 20px;
+				color: #333;
+			}
+		}
+	}
+}
