@@ -1,14 +1,48 @@
 .single-product {
-	
+
+	.tmcp-field-wrap {
+		.after-amount .img-preview {
+			display: block;
+			max-width: 200px;
+			margin-top: 10px;
+			//background: #fff;
+			//padding: 10px;
+			//border: 1px solid #333;
+		}
+	}
+
 	.tm-element-ul-upload {
 		.tm-filename {
 			display: none;
 		}
 		small { display: none; }
 	}
-	
+
+	.tm-extra-product-options .tm-epo-field-label {
+		font-weight: 100;
+		font-size: 1em;
+
+		.tm-epo-required {
+			margin-right: 5px;
+		}
+	}
+
 	.tm-collapse {
-		background: #fff;
-		color: #333;
-	}	
+		background: #525252;
+		color: #fff;
+
+		.tm-collapse-wrap { float: none; }
+	}
+
+	.button.single_add_to_cart_button {
+		border-radius: 0;
+		padding: 13px 18px;
+		background: #FFDE00 !important;
+		color: #000 !important;
+	}
+
+	.cpf-upload-container span {
+		display: inline-block;
+		padding: 6px 15px;
+	}
 }

@@ -13,3 +13,36 @@
   @extend .btn;
   @extend .btn-default;
 }
+
+.tm-epo-field.tmcp-select {
+  display: inline-block;
+  border: 1px solid #eeeeee;
+  padding: 9px 40px 7px 15px;
+  outline: none;
+  -webkit-appearance: initial;
+  height: auto;
+
+  &:after {
+    font-family: FontAwesome;
+    content: "\f0d7";
+    color: #fff;
+    font-size: 12px;
+    position: absolute;
+    top: 12px;
+    right: 0;
+  }
+}
+
+.comment-form input[type=email],
+.comment-form input[type=text],
+.comment-form input[type=url],
+.comment-form textarea,
+.form-control,
+.search-form .search-field{
+  border-radius: 0;
+  background: #afafaf;
+  color: #333;
+  font-size: 14px;
+  padding: 20px;
+  font-weight: 300;
+}
