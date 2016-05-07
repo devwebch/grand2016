@@ -32,5 +32,8 @@
         "./assets/fonts/bootstrap/glyphicons-halflings-regular.woff2"
       ]
     }
+  },
+  "devDependencies": {
+    "font-awesome": "fontawesome#^4.6.1"
   }
 }

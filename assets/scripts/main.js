@@ -68,8 +68,9 @@
 		}
 		
 
-	    setPreviewField('570a05db783f54.49420388');
-	    setPreviewField('570a060f783f62.39226354');
+        setPreviewField('570a05db783f54.49420388'); // thumbnail
+        setPreviewField('570a060f783f62.39226354'); // header
+        setPreviewField('570a06a42441b7.10863804'); // image 1
 
 	    
       }
