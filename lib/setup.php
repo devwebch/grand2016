@@ -95,7 +95,8 @@ function display_sidebar() {
     // The sidebar will NOT be displayed if ANY of the following return true.
     // @link https://codex.wordpress.org/Conditional_Tags
     is_404(),
-    is_page_template('template-custom.php'),
+	is_page_template('template-custom.php'),
+	is_page_template('template-full-width.php'),
     is_product(),
     is_cart()
   ]);
