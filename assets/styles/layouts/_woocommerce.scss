@@ -10,22 +10,21 @@
 	}
 
 	table.shop_table {
-		border: 5px solid #222;
-		margin: 0 -1px 24px 0;
+		margin: 0 0 25px 0;
 		text-align: left;
 		border-collapse: separate;
 		border-radius: 0;
-		background: #F1F1F1;
+		background: #fff;
 		color: #333;
+		font-size: 1.1em;
+
+		td {
+			border: none;
+		}
 
 		.tm-epo-cart-row-header {
-			background: #DEDEDE;
+			background: #f8f8f8;
 		}
-	}
-
-	.shop_table_responsive {
-		float: left;
-		width: 65% !important;
 	}
 
 	.cart-collaterals {
@@ -44,10 +43,10 @@
 .woocommerce-cart {
 	table.cart {
 		th {
-			padding: 15px 15px;
+			padding: 1.68em;
 		}
 		td {
-			padding: 10px 15px;
+			padding: 1.68em;
 		}
 		.actions {
 			padding-top: 20px;

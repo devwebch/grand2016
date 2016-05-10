@@ -110,7 +110,7 @@ function display_sidebar() {
 function assets() {
 	
 	// Fonts
-	wp_enqueue_style('roboto', 'https://fonts.googleapis.com/css?family=Roboto:400,300,100', false, null);
+	wp_enqueue_style('roboto', 'https://fonts.googleapis.com/css?family=Roboto:700,400,300,100', false, null);
 	wp_enqueue_style('font-awesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css', false, null);
 	wp_enqueue_style('sage/css', Assets\asset_path('styles/main.css'), false, null);
 	
