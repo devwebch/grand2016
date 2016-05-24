@@ -39,6 +39,9 @@ add_filter('excerpt_more', __NAMESPACE__ . '\\excerpt_more');
 add_filter('woocommerce_show_page_title', '__return_false');
 remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_title', 5);
 
+/**
+ * @param $order_ID
+ */
 add_action( 'woocommerce_order_status_completed', __NAMESPACE__ . '\\grand_wc_order_status_completed' );
 function grand_wc_order_status_completed( $order_ID )
 {
@@ -114,21 +117,4 @@ function grand_wc_order_status_completed( $order_ID )
       }
     }
   }
-}
-
-/**
- * @param $identifier
- * @return string
- */
-function grand_acf_epo_mapper( $identifier ) {
-
-  $acf_field_ID   = '';
-
-  switch ($identifier) {
-    case 'nomduprojet':
-          $acf_field_ID = 'gd_field_ID';
-          break;
-  }
-
-  return $acf_field_ID;
 }
